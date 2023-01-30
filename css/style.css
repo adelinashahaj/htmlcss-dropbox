@@ -106,20 +106,47 @@ section{
     width: 100vw;
     height: 400px;
     display: flex;
+    background-color: aqua;
+   
 
 }
-.clienti{
+
+.quad-grandi1{
     display: flex;
     width: calc(100% / 3);
-    background-color: aqua;
     height: 400px;
 
 }
-.quaderatini-piccoli{
+.quad-grandi2{
+    display: flex;
+    height: 400px;
+    width: calc(100% / 3);
+    background-color: aliceblue;
+    
+
+}
+.quad-grandi3{
+    display: flex;
+    height: 400px;
+    width: calc(100% / 3);
+
+}
+
+.quad-piccoli1{
     width: calc(100% / 2);
-    height: 100%;
+    height: calc(100% / 2);
+    height: 50%;
     background-color: burlywood;
 }
+.quad-piccoli2{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    height: 50%;
+    background-color: rgb(210, 30, 93);
+
+}
+
+
 footer{
     background-color: black;
    width: 100vw;
