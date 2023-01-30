@@ -77,8 +77,10 @@ section{
     margin: auto;
     padding: 20px;
 }
+
 .col4{
-    width: 100%;
+    width:1170px;
+    margin: auto;
     height: 200px;
     background-color: black;
    
@@ -145,7 +147,11 @@ section{
     background-color: rgb(210, 30, 93);
 
 }
-
+.bg-col4{
+    background-color: aquamarine;
+    padding: 20px;
+    
+}
 
 footer{
     background-color: black;
