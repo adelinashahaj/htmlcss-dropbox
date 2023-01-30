@@ -104,7 +104,7 @@ section{
 }
 .clienti1{
     width: 100vw;
-    height: 300px;
+    height: 400px;
     display: flex;
 
 }
@@ -112,11 +112,30 @@ section{
     display: flex;
     width: calc(100% / 3);
     background-color: aqua;
-    height: 300px;
+    height: 400px;
 
 }
 .quaderatini-piccoli{
     width: calc(100% / 2);
     height: 100%;
     background-color: burlywood;
+}
+footer{
+    background-color: black;
+   width: 100vw;
+    height: 400px;
+    padding: 40px;
+}
+.footer-container{
+    background-color: aqua;
+    height: 300px;
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+}
+
+.colonna {
+    width: calc(100% / 5);
+    border: dashed 2px;
+    height: 100%;
 }
