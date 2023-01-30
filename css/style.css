@@ -44,6 +44,12 @@ li {
     margin: auto;
     margin-top: 80px;
 }
+.container1{
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 80px
+
+}
 .dx{
     background-color: blue;
     width: 40%;
@@ -74,8 +80,8 @@ li {
 }
 section{
     max-width: 1170px;
-    margin: auto;
-    padding: 20px;
+   
+    
 }
 
 .col4{
@@ -104,9 +110,12 @@ section{
 
 
 }
+.secion-clienti{
+    margin-top: 150px;
+}
 .clienti1{
     width: 100vw;
-    height: 400px;
+    
     display: flex;
     background-color: aqua;
    
@@ -116,42 +125,25 @@ section{
 .quad-grandi1{
     display: flex;
     width: calc(100% / 3);
-    height: 400px;
-
-}
-.quad-grandi2{
-    display: flex;
-    height: 400px;
-    width: calc(100% / 3);
-    background-color: aliceblue;
-    
-
-}
-.quad-grandi3{
-    display: flex;
-    height: 400px;
-    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    flex-wrap: wrap;
+    background-color: blue;
 
 }
 
-.quad-piccoli1{
-    width: calc(100% / 2);
-    height: calc(100% / 2);
-    height: 50%;
+
+.quad-piccoli{
+    width: 50%;
+    border: 1px solid;
     background-color: burlywood;
 }
-.quad-piccoli2{
-    width: calc(100% / 2);
-    height: calc(100% / 2);
-    height: 50%;
-    background-color: rgb(210, 30, 93);
 
-}
 .bg-col4{
     background-color: aquamarine;
     padding: 20px;
     
 }
+
 
 footer{
     background-color: black;
