@@ -212,9 +212,12 @@ i.fa-solid.fa-arrow-down {
     padding-bottom: 60px;
     margin: 5px;
    
-   border: 1px solid;
-    height: 700px;
+    height: 1000px;
 }
+.col, img, p, h3{
+    padding-bottom: 20px;
+}
+
 section{
     max-width: 1170px;
    
