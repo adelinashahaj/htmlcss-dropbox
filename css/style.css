@@ -7,39 +7,48 @@
 header{
     width: 100%;
     height: 80px;
-    background-color: red;
+    background-color: white;
     z-index: 9;
     position: fixed;
     top: 0;
     left: 0;
-
 }
-main{}
+
 .contenitori-header{
     display: flex;
     justify-content: space-between;
 }
-nav{
+nav .destra .sinistra{
     display: flex;
+    align-items: center;
 }
-ul {
+.hd-ul {
     display: flex;
     margin-left: 10px;
     margin-right: 20px;
     padding: 20px;
     list-style: none;
+    align-items: center;
 }
-li {
-    padding-left: 20px;
+.hd-ul li {
+    padding: 5px 12px;
     background-color: white;
+}
+.hd-ul a{
+    text-decoration: none;
+    color: grey;
+}
+#buttone{
+    background-color: blue;
+    padding: 5px;
 }
 .bg-main{
     background-color: aqua;
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 .container{
-    display: flex;
+  
     max-width: 1170px;
     margin: auto;
     margin-top: 80px;
@@ -50,17 +59,104 @@ li {
     margin-top: 80px
 
 }
+.contenitore1{
+    display: flex;
+}
 .dx{
-    background-color: blue;
+    
     width: 40%;
-    height: 300px;
-    margin-top: 100px;
+    height: 400px;
+    margin-top: 50px;
 }
 .sx{
-    background-color: blueviolet;
+    
     width: 60%;
-    height: 300px;
-   margin-top: 100px;
+    height: 400px;
+   margin-top: 50px;
+}
+h1{
+    font-size: 50px;
+    padding-top: 20px;
+}
+.dx p{
+    margin-left: 10px;
+    margin-bottom: 50px;
+
+}
+.dx h5{
+    margin-top: 30px;
+    margin-left: 10px;
+    
+
+}
+span.buttone {
+    margin: 10px;
+}
+i.fa-solid.fa-arrow-down {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 90px;
+}
+.jumbo{
+    width: 100%;
+}
+.section-2-piani {
+    display: flex;
+    justify-content: space-between;
+}
+.selectore{
+    display: inline-block;
+    margin-right: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.piani {
+    width: 30%;
+    height: 900px;
+    font-size: 16px;
+    border: 2px solid gray
+}
+
+.piani-margin {
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.piani .piani-margin i  {
+    margin-left: -5px;
+}
+.piani ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+
+}
+
+.testo{
+    display: inline-block;
+    text-indent: -8px;
+    margin-top: 30px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.piani-title {
+    text-align: center;
+    border-bottom: 2px solid gray;
+    padding: 5px 0px;
+    margin-bottom: 40px;
+    text-indent: 0px;
+}
+
+.piani h3 {
+    font-size: 23px;
+    margin-bottom: 18px;
+}
+
+.piani h5 {
+    margin-top: 30px;
+    color: gray;
 }
 
 .colonne{
@@ -75,7 +171,8 @@ li {
     padding: 20px;
     padding-bottom: 60px;
     margin: 5px;
-    background-color: black;
+   
+   border: 1px solid;
     height: 700px;
 }
 section{
@@ -89,26 +186,38 @@ section{
     margin: auto;
     height: 200px;
     background-color: black;
+    padding: 20px;
    
 }
 .cont{
-    
+    padding: 20px;
     display: flex;
 
 }
+img{
+    width: 100%;
+}
 .foto{
-    background-color: blueviolet;
+    
     width: 60%;
-    height: 500px;
+    height: 600px;
 
 }
 .text{
-    background-color: blue;
-    width: 40%;
-    height: 500px;
     
-
-
+    width: 40%;
+    height: 600px;
+    padding: 40px;
+}
+.text h2{
+    padding-bottom: 20px;
+}
+.text span{
+    border: 1px solid;
+    padding: 5px;
+}
+.text p{
+    padding-bottom: 30px;
 }
 .secion-clienti{
     margin-top: 150px;
@@ -152,7 +261,7 @@ footer{
     padding: 40px;
 }
 .footer-container{
-    background-color: aqua;
+   
     height: 300px;
     max-width: 1170px;
     margin: auto;
@@ -161,6 +270,23 @@ footer{
 
 .colonna {
     width: calc(100% / 5);
-    border: dashed 2px;
+    
     height: 100%;
 }
+.ft-ul li {
+    padding: 10px 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+ 
+ }
+.ft-ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+ }
+ .ft-ul a{
+    text-decoration: none;
+    color: whitesmoke;
+ }
