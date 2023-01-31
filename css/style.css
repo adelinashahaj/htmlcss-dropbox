@@ -8,12 +8,15 @@ html{
    
     font-family: 'Open Sans', sans-serif;
 }
+main{
+    padding-top: 70px;
+}
 /* ----- inizio secion header----- */
 header{
     width: 100%;
     height: 80px;
     background-color: white;
-    z-index: 9;
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -32,7 +35,7 @@ nav .destra .sinistra{
     margin-right: 20px;
     padding: 20px;
     list-style: none;
-    align-items: center;
+  
 }
 .hd-ul li {
     padding: 5px 12px;
@@ -53,30 +56,24 @@ nav .destra .sinistra{
 /* ----- inizio secion jumbotron----- */
 
 .bg-main{
-    background-color: aqua;
+    background-color: rgb(128, 185, 232);
     width: 100%;
     height: 600px;
 }
 .container{
-  
     max-width: 1170px;
     margin: auto;
-    margin-top: 80px;
     padding-top: 80px;
 }
 .container2{
     max-width: 1000px;
-   
     margin: auto;
-    margin-top: 80px;
     padding-top: 80px;
-
 }
 .container1{
     max-width: 1000px;
     margin: auto;
     margin-top: 80px
-
 }
 .contenitore1{
     display: flex;
@@ -105,8 +102,6 @@ h1{
 .dx h5{
     margin-top: 30px;
     margin-left: 10px;
-    
-
 }
 span.buttone {
     margin: 10px;
@@ -143,8 +138,6 @@ i.fa-solid.fa-arrow-down {
 .piani-margin {
     margin-left: 30px;
     margin-right: 30px;
-    
-
 }
 
 .piani .piani-margin i  {
@@ -234,8 +227,6 @@ i.fa-solid.fa-arrow-down {
 .colonne{
     display: flex;
     width: 100%;
-    
-
 }
 .col{
     width: calc(100% / 3);
@@ -266,7 +257,6 @@ img{
     width: 100%;
 }
 .foto{
-    
     width: 60%;
     height: 600px;
 
@@ -311,7 +301,7 @@ img{
 
 .quad-piccoli{
     width: 50%;
-    border: 1px solid;
+   
     background-color: burlywood;
     position: relative;
 }
@@ -347,7 +337,7 @@ img{
 }
 /* ----- fine secion clienti----- */
 .bg-col4{
-    background-color: rgb(0, 193, 200);
+    background-color: rgb(128, 185, 232);
     padding: 20px;
     
 }
@@ -359,8 +349,6 @@ img{
     justify-content: space-between;
     align-items: center;
  }
- 
- 
  h2{
     font-size: 40px;
  }
@@ -373,11 +361,7 @@ footer{
     height: 400px;
     padding: 40px;
 }
-
-
 .footer-container{
-   
-   
     max-width: 1170px;
     margin: auto;
     display: flex;
@@ -407,8 +391,6 @@ footer{
  }
  .lingue{
     width: 20%;
-   
-    
     border-top: 1px solid white;
     margin-top: 50px;
 
