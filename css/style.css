@@ -44,6 +44,8 @@ nav .destra .sinistra{
 #buttone{
     background-color: blue;
     padding: 5px;
+    color: white;
+    text-align: center;
 }
 .bg-main{
     background-color: aqua;
@@ -202,6 +204,11 @@ i.fa-solid.fa-arrow-down {
     text-align: center;
     padding-left: 40px;
     
+}
+.small-30 .buttone{
+    border: 1px solid;
+    padding: 5px;
+    background-color: whitesmoke;
 }
 .big-60{
     width: 60%;
