@@ -335,11 +335,7 @@ img{
     margin-left: 10px;
     
 }
-.bg-col4{
-    background-color: rgb(0, 193, 200);
-    padding: 20px;
-    
-}
+
 .blue{
     background-color: blue;
 }
@@ -353,7 +349,11 @@ img{
     background-color: red;
 }
 /* ----- fine secion clienti----- */
- 
+.bg-col4{
+    background-color: rgb(0, 193, 200);
+    padding: 20px;
+    
+}
  /* ----- inizio elenco di domande ----- */
  
  .prima-dom{
@@ -364,8 +364,8 @@ img{
  }
  
  
- h6{
-    font-size: 15px;
+ h2{
+    font-size: 40px;
  }
 /* -----fine elenco di domande ----- */
 
