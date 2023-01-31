@@ -8,6 +8,7 @@ html{
    
     font-family: 'Open Sans', sans-serif;
 }
+/* ----- inizio secion header----- */
 header{
     width: 100%;
     height: 80px;
@@ -47,6 +48,10 @@ nav .destra .sinistra{
     color: white;
     text-align: center;
 }
+/* ----- fine secion header----- */
+
+/* ----- inizio secion jumbotron----- */
+
 .bg-main{
     background-color: aqua;
     width: 100%;
@@ -114,6 +119,9 @@ i.fa-solid.fa-arrow-down {
 .jumbo{
     width: 100%;
 }
+/* ----- fine secion jumbotron----- */
+
+/* ----- inizio secion card senza img----- */
 .section-2-piani {
     display: flex;
     justify-content: space-between;
@@ -183,6 +191,7 @@ i.fa-solid.fa-arrow-down {
     font-size: 16px;
     border: 2px solid gray
 }
+
 .piani-title2{
     text-align: center;
     border-bottom: 2px solid gray;
@@ -221,10 +230,13 @@ i.fa-solid.fa-arrow-down {
 .big-60 h3{
     padding-bottom: 20px;
 }
+
+/* ----- fine secion card senza img----- */
+
+/* ----- inizio secion card con img----- */
 .colonne{
     display: flex;
     width: 100%;
-    
     
 
 }
@@ -240,16 +252,15 @@ i.fa-solid.fa-arrow-down {
     padding-bottom: 20px;
 }
 
-section{
-    max-width: 1170px;
-      
-}
+
 .nr-utilizz h1{
     width: 60%;
     
     padding-bottom: 40px;
 }
+/* ----- fine secion card con img----- */
 
+/* ----- inizio secion card solo 1 img----- */
 .cont{
     display: flex;
 
@@ -279,6 +290,10 @@ img{
 .text p{
     padding-bottom: 30px;
 }
+/* ----- fine secion card solo 1 img----- */
+
+/* ----- inizio secion clienti----- */
+
 .secion-clienti{
     margin-top: 150px;
 }
@@ -286,9 +301,6 @@ img{
     width: 100vw;
     
     display: flex;
-    
-   
-
 }
 
 .quad-grandi1{
@@ -299,7 +311,6 @@ img{
    background-color: rgb(249, 249, 249);
 
 }
-
 
 .quad-piccoli{
     width: 50%;
@@ -341,13 +352,32 @@ img{
 .rosso{
     background-color: red;
 }
+/* ----- fine secion clienti----- */
+ 
+ /* ----- inizio elenco di domande ----- */
+ 
+ .prima-dom{
+    line-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ 
+ h6{
+    font-size: 15px;
+ }
+/* -----fine elenco di domande ----- */
 
+/* ----- inizio footer ----- */
 footer{
     background-color: black;
    width: 100vw;
     height: 400px;
     padding: 40px;
 }
+
+
 .footer-container{
    
    
@@ -390,3 +420,4 @@ footer{
     color: white;
     padding-top: 20px;
  }
+ /* -----  footer ----- */
