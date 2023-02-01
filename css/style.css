@@ -25,9 +25,9 @@ header{
     display: flex;
     justify-content: space-between;
 }
-nav .destra .sinistra{
+.nav-header{
     display: flex;
-    align-items: center;
+   
 }
 .hd-ul {
     display: flex;
@@ -208,6 +208,7 @@ i.fa-solid.fa-arrow-down {
     border: 1px solid;
     padding: 5px;
     background-color: whitesmoke;
+    margin-top: 20px;
 }
 .big-60{
     width: 60%;
@@ -301,7 +302,6 @@ img{
 
 .quad-piccoli{
     width: 50%;
-   
     background-color: burlywood;
     position: relative;
 }
@@ -310,6 +310,7 @@ img{
     position: absolute;
     bottom: 50px;
     left: 50px;
+    color: white;
 
 }
 .over-flow{
@@ -318,7 +319,6 @@ img{
 }
 .quad-grandi1 img{
     width: 50%;
-    
     margin-left: 10px;
     
 }
@@ -351,6 +351,9 @@ img{
  }
  h2{
     font-size: 40px;
+ }
+ .domande{
+    padding-bottom: 40px;
  }
 /* -----fine elenco di domande ----- */
 
