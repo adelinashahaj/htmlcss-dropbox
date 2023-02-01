@@ -46,7 +46,7 @@ header{
     color: black
 }
 #buttone{
-    background-color: blue;
+    background-color: #0061ff;
     padding: 5px;
     color: white;
     text-align: center;
@@ -56,7 +56,7 @@ header{
 /* ----- inizio secion jumbotron----- */
 
 .bg-main{
-    background-color: rgb(128, 185, 232);
+    background-color: #B4D0E7;
     width: 100%;
     height: 600px;
 }
@@ -128,6 +128,23 @@ i.fa-solid.fa-arrow-down {
     padding-bottom: 40px;
     padding-top: 10px;
 }
+.cerchio-blue{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border: 4px solid #0061ff;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.cerchio-vuoto{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border: gray 2px solid;
+    border: 2px solid gray;
+    vertical-align: middle;
+    border-radius: 50%;
+}
 .piani {
     width: 30%;
     height: 900px;
@@ -159,7 +176,7 @@ i.fa-solid.fa-arrow-down {
     margin-bottom: 20px;
 }
  .color{
-    color: blue;
+    color: #0061ff;
  }
 .piani-title {
     text-align: center;
@@ -205,7 +222,6 @@ i.fa-solid.fa-arrow-down {
     
 }
 .small-30 .buttone{
-    border: 1px solid;
     padding: 5px;
     background-color: whitesmoke;
     margin-top: 20px;
@@ -297,6 +313,12 @@ img{
    background-color: rgb(249, 249, 249);
 
 }
+.quad-grandi2{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+   background-color: rgb(249, 249, 249);
+
+}
 
 .quad-piccoli{
     width: 50%;
@@ -316,12 +338,18 @@ img{
     padding-left: 10px;
     overflow-y: auto;
 }
-.quad-grandi1 img{
+.quad-grandi2 img{
     width: 50%;
-    margin-left: 10px;
-    
-    
+  padding-top: 20px;  
 }
+.quad-grandi2 p{
+    padding-top: 20px;
+}
+.clienti-hr {
+    width: 40%;
+    border: 1px solid gray;
+}
+
 
 .asu{
     background-color: #61082B;
@@ -349,7 +377,7 @@ img{
 }
 /* ----- fine secion clienti----- */
 .bg-col4{
-    background-color: rgb(128, 185, 232);
+    background-color: #B4D0E7;
     padding: 20px;
     
 }
